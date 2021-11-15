@@ -22,7 +22,7 @@ vector<int> ParseLine(string line) {
 }
 
 // TODO: Change the return type of ReadBoardFile.
-vector<vector<int>> ReadBoardFile("1.oard") {
+vector<vector<int>> ReadBoardFile("1.board") {
   ifstream myfile (path);
   vector<vector<int>> board;
   // TODO: Declare an empty board variable here with
